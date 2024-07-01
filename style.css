@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+body {
+    background-color: rgb(27, 77, 203);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(199, 212, 246);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(77, 123, 237);
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+nav {
+    justify-content: space-between;
+    background-color: rgb(27, 77, 203);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+.logo {
+    padding: 13px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+ul li a:hover {
+    color: rgb(158, 163, 237);
+}
+
+.hamburger {
+    display: none;
+}
+
+.container {
+    background-color: rgb(199, 212, 246);
+    height: 85vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin: 8px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+input {
+    width: 80%;
+    border: 1px solid rgb(115, 151, 186);
+    background-color: transparent;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 25px;
+    height: 23px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+.btn-add {
+    width: 7%;
+    border-radius: 15px;
+    background-color: rgb(27, 77, 203);
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    height: 28px;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-add:hover {
+    font-size: 14px;
+    background-color: rgb(51, 93, 200);
+}
+
+hr {
+    background-color: black;
+    border: none;
+    width: 60%;
+    height: 1px;
+    margin: auto;
+    margin-top: 35px;
+    opacity: 0.2;
+}
+
+.todo-header {
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.sort {
+    align-items: center;
+}
+
+.sort-logo {
+    cursor: pointer;
+}
+
+select {
+    padding: 5px;
+    border-radius: 17px;
+    margin-left: 12px;
+    font-size: small;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+h4 {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.span-todos {
+    display: none;
+}
+
+.todo-list {
+    color: black;
+    padding-left: 20px;
+    width: 85%;
+    margin: 8px;
+    margin-top: 13px;
+}
+
+span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h5{
+    text-align: center;
+    opacity: 0.5;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.buttons{
+    display: flex;
+}
+
+ol>li {
+    margin-bottom: 5px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+button {
+    width: 7vw;
+    border-radius: 15px;
+    background-color: rgb(27, 77, 203);
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    font-size: 12px;
+    padding: 4px;
+    margin: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-fin:hover,
+.btn-del:hover {
+    font-size: 13px;
+    background-color: rgb(51, 93, 200);
+}

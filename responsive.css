@@ -1,0 +1,90 @@
+@media (max-width:1000px) {
+    input {
+        width: 80%;
+    }
+
+    .btn-add {
+        width: 8%;
+        font-size: 12px;
+        height: 25px;
+        margin: 13px;
+        padding: 5px;
+    }
+
+    button {
+        width: 7vw;
+    }
+}
+
+@media (max-width:700px) {
+    input {
+        width: 90%;
+    }
+
+    .btn-add {
+        width: 12vw;
+    }
+
+    .bin {
+        height: 3vh;
+        padding-top: 8px;
+    }
+
+    hr {
+        margin-top: 15px;
+    }
+
+    button {
+        width: 9vw;
+    }
+
+    .todo-text {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo {
+        padding-bottom: 10px;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    button {
+        width: 12vw;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    .sort-logo {
+        height: 18px;
+    }
+
+    select {
+        padding: 2px;
+        border-radius: 8px;
+        margin-left: 6px;
+    }
+}
+
+@media (max-width:400px) {
+    input {
+        height: 15px;
+    }
+
+    .container {
+        margin: auto;
+        margin-top: 16px;
+    }
+
+    button {
+        width: 12vw;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <nav class="flex">
+            <div class="logo">ToDo-App
+                <svg class="filter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                    color="#000000" fill="none">
+                    <path d="M11 6L21 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M11 12L21 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M11 18L21 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M3 7.39286C3 7.39286 4 8.04466 4.5 9C4.5 9 6 5.25 8 4" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 18.3929C3 18.3929 4 19.0447 4.5 20C4.5 20 6 16.25 8 15" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <ul class="flex">
+                <li><a href="http://127.0.0.1:3000/index.html">Home</li></a>
+                <li><a href="http://127.0.0.1:3000/index2.html" target="_blank">Your Tasks</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <h3>Add your ToDo</h3>
+
+        <div class="todo">
+            <input type="text" name="" id="input" placeholder="Type something...">
+            <button class="btn-add">Add</button>
+            <hr>
+        </div>
+
+        <div class="todos">
+            <div class=" todo-header flex">
+                <h4>Your ToDos :</h4>
+                <div class="sort flex">
+                    <svg class="sort-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                        color="#000000" fill="none">
+                        <path d="M4 5L16 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 19L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <select name="select" id="select">
+                        <option value=""> A to Z </option>
+                        <option value=""> Z to A </option>
+                        <option value=""> Recently added </option>
+                    </select>
+                </div>
+            </div>
+            <h5 class="noTodo">No ToDos to show</h5>
+            <div class="todo-list">
+                <span class="span-todos flex">
+                    <div class="text"></div>
+                    <div class="buttons flex">
+                        <button>Finish</button>
+                        <button>Delete</button>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
